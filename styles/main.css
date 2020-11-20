@@ -17,6 +17,9 @@ body{
     width: 100%;
     background: linear-gradient( 30deg,#f6bb73 0%, #ffffff 50%,#f6bb73 100%);
 }
+.shadow{
+    text-shadow: 2px 2px 2px var(--corlor-border);
+}
 /* Main */
 .main{
     display: flex;
