@@ -10,12 +10,14 @@
 body{
     width: 80%;
     margin: auto;
+  
 }
 /* Header */
 .header{
     display: flex;
     width: 100%;
     background: linear-gradient( 30deg,#f6bb73 0%, #ffffff 50%,#f6bb73 100%);
+    border: 3px solid var(--corlor-border);
 }
 .shadow{
     text-shadow: 2px 2px 2px var(--corlor-border);
@@ -23,8 +25,16 @@ body{
 /* Main */
 .main{
     display: flex;
-  
+    width: 100%;
+    border-left: 3px solid var(--corlor-border);
+    border-right: 3px solid var(--corlor-border);
     }
+.main h2{
+    color: var(--corlor-border);
+}
+.main ul{
+    padding-left: 24px;
+}
 .aside{
     width: var(--width-aside);
 }
@@ -40,7 +50,8 @@ body{
 /* Footer */
 .footer{
     background-color: var(--corlor-border);
-  
+    width: 100%;
+    border: 3px solid var(--corlor-border);
 }
 .footer p{
     text-align: center;
@@ -66,25 +77,22 @@ body{
 /* Main */
     .main{
         flex-direction: column;
-        width: 90%;
         margin: auto;
     }
+
     .aside{
-        border: 1px solid var(--corlor-border);
         width: 100%;  
       
         order:2;
     }
     .article{
-        border: 1px solid var(--corlor-border);
         width: 100%;  
         order: 1;
         margin-bottom: 2px;
     }
     .flexarticle{
         flex-direction: column;
-        justify-content: center;
-    }
+        align-items: center;
    
     
     
