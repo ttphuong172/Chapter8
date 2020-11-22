@@ -8,7 +8,7 @@
 }
 /* Body */
 body{
-    width: 80%;
+    width: 70%;
     margin: auto;
   
 }
@@ -48,6 +48,7 @@ body{
 }
 .main blockquote{
     font-style: italic;
+    padding-left: 24px;
 }
 .aside{
     padding-top: 8px;
@@ -59,7 +60,9 @@ body{
 }
 .article{
     padding-top: 8px;
+    padding-left: 16px;
     padding-right: 16px;
+
     width: calc(100% - var(--width-aside));
 }
 .flexarticle{
@@ -92,7 +95,12 @@ body{
         flex-direction: column;
         align-items: center;
     }
+    .imageheader{
+        padding-left: 0px;
+    }
     .headingheader{
+        padding-top: 0px;
+        padding-left: 0px;
         text-align: center;
     }
 /* Main */
@@ -102,16 +110,16 @@ body{
     }
 
     .aside{
-        width: 100%;  
-      
         order:2;
     }
     .article{
-        width: 100%;  
+        width: 100%;
         order: 1;
         margin-bottom: 2px;
+        box-sizing: border-box;
     }
     .flexarticle{
+       
         flex-direction: column;
         align-items: center;
     }
