@@ -124,8 +124,8 @@ body{
         align-items: center;
     }
     .contentarticle{
-order: 2;
+        order: 1;
   }
-  .imageacticle{
-    order: 1;
-  }
+    .imageacticle{
+    order: 2;
+     }
