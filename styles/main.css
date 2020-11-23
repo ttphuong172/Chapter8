@@ -45,6 +45,7 @@ body{
 }
 .main ul{
     padding-left: 24px;
+    padding-top: 8px;
 }
 .main blockquote{
     font-style: italic;
@@ -67,6 +68,14 @@ body{
 }
 .flexarticle{
     display: flex;
+}
+.borderarticle{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-top: 2px solid var(--corlor-border);
+    border-bottom: 2px solid var(--corlor-border);
 }
 
 
