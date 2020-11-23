@@ -39,6 +39,7 @@ body{
     width: 100%;
     border-left: 3px solid var(--corlor-border);
     border-right: 3px solid var(--corlor-border);
+   
     }
 .main h2{
     color: var(--corlor-border);
