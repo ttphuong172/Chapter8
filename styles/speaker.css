@@ -78,8 +78,11 @@ body{
   padding-bottom: 8px;
   margin-top: 8px;
   margin-bottom: 8px;
-  border-top: 2px solid var(--corlor-border);
-  border-bottom: 2px solid var(--corlor-border);
+  /* border-top: 2px solid var(--corlor-border);
+  border-bottom: 2px solid var(--corlor-border); */
+}
+.article img{
+  border: 1px solid #000000;
 }
 
 

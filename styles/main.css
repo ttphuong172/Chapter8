@@ -18,6 +18,7 @@ body{
     width: 100%;
     background: linear-gradient( 30deg,#f6bb73 0%, #ffffff 50%,#f6bb73 100%);
     border: 3px solid var(--corlor-border);
+    box-sizing: border-box;
 }
 .shadow{
     text-shadow: 2px 2px 2px var(--corlor-border);
@@ -39,7 +40,7 @@ body{
     width: 100%;
     border-left: 3px solid var(--corlor-border);
     border-right: 3px solid var(--corlor-border);
-   
+    box-sizing: border-box;
     }
 .main h2{
     color: var(--corlor-border);
@@ -78,6 +79,9 @@ body{
     border-top: 2px solid var(--corlor-border);
     border-bottom: 2px solid var(--corlor-border);
 }
+.article img{
+    border: 1px solid #000000;
+}
 
 
 
@@ -86,6 +90,7 @@ body{
     background-color: var(--corlor-border);
     width: 100%;
     border: 3px solid var(--corlor-border);
+    box-sizing: border-box;
 }
 .footer p{
     text-align: center;
