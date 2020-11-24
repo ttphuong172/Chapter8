@@ -99,6 +99,46 @@ body{
     margin-bottom: 0px;  
 }
 
+
+/* Page Luncheons */
+table{
+    border-collapse: collapse;
+    height: 300px;
+    width: 400px;
+    
+}
+
+th{
+    font-weight: bold;
+    text-align: left;
+    border-top: 2px solid var(--corlor-border);
+    border-bottom: 2px solid var(--corlor-border);
+}
+.article th,td{
+    padding: 5px 10px;
+}
+.twonearlast{
+    text-align: right;
+    font-weight: bold;
+  
+}
+td:last-child{
+    text-align: right;
+}
+tr:last-child{
+    font-weight: bold;
+    text-align: right;
+    border-top: 2px solid var(--corlor-border);
+    border-bottom: 2px solid var(--corlor-border);
+}
+tr:nth-child(3){
+    border-bottom: 2px solid var(--corlor-border);
+}
+tr:nth-child(8){
+    border-top: 2px solid var(--corlor-border);
+}
+
+
 /* Responsive */
   @media screen and (max-width:768px){
 /* Body */
@@ -143,4 +183,9 @@ body{
   }
     .imageacticle{
     order: 2;
+     }
+
+     table{
+         width: 100%;
+    overflow-x:auto;
      }
