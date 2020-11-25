@@ -137,6 +137,9 @@ tr:nth-child(3){
 tr:nth-child(8){
     border-top: 2px solid var(--corlor-border);
 }
+.cell2015{
+    border-bottom: 2px solid var(--corlor-border);
+}
 
 
 /* Responsive */
